@@ -34,7 +34,7 @@ const eventSchema : Schema<Event> = new Schema({
 
 
 
-const EventList = mongoose.model<Event>('event', eventSchema);
+const EventModel = mongoose.model<Event>('event', eventSchema);
 
 
-export { EventList };
+export { EventModel };
